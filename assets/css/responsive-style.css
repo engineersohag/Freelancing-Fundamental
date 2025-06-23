@@ -1,3 +1,15 @@
+@media only screen and (max-width: 980px){
+    .hero img{
+        width: 100%;
+    }
+    .section-3 .text-img{
+        width: 100%;
+    }
+    .section-3 .card h1{
+        font-size: 48px;
+    }
+}
+
 /* For Medium Device */
 @media only screen and (max-width: 812px){
     .w-75{
@@ -244,5 +256,24 @@
     }
     footer .sm-img-payment{
         display: none;
+    }
+}
+
+/* for small mobile device */
+@media only screen and (max-width: 361px){
+    .navbar .navbar-brand img{
+        width: 115px;
+    }
+    .section-4 .icon-box{
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 328px){
+    .navbar .navbar-brand img{
+        width: 100px;
+    }
+    .section-4 .icon-box{
+        padding: 0px;
     }
 }
