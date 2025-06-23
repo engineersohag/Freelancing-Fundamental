@@ -260,7 +260,7 @@
 }
 
 /* for small mobile device */
-@media only screen and (max-width: 361px){
+@media only screen and (min-width: 361px){
     .navbar .navbar-brand img{
         width: 115px;
     }
@@ -269,9 +269,9 @@
     }
 }
 
-@media only screen and (max-width: 328px){
+@media only screen and (min-width: 200px){
     .navbar .navbar-brand img{
-        width: 100px;
+        width: 90px;
     }
     .section-4 .icon-box{
         padding: 0px;
