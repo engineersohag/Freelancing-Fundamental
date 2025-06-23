@@ -1,0 +1,248 @@
+/* For Medium Device */
+@media only screen and (max-width: 812px){
+    .w-75{
+        width: 85% !important;
+    }
+    .hero .fw-semibold{
+        font-size: 32px;
+    }
+    .hero p{
+        font-size: 16px;
+    }
+    .hero img{
+        width: 100%;
+    }
+    /* hero section end */
+    .section-3 .h-text{
+        width: 100%;
+    }
+    .section-3 .text-img{
+        width: 90%;
+    }
+    .section-3 .row .card h1{
+        font-size: 38px;
+    }
+    /* section-3 end  */
+    .enroll-circle img{
+        width: 100% !important;
+    }
+    .instractor .man-img{
+        width: 100% !important;
+        height: auto;
+        margin-top: -60px;
+        margin-bottom: 40px;
+    }
+    .courses .video-card{
+        width: 100%;
+        height: 320px;
+    }
+    .courses .video-card-title{
+        width: 100%;
+    }
+    .courses .btn-preview{
+        width: 88%;
+    }
+    /* course price start  */
+    .course-price .wrap{
+        width: 100%;
+    }
+    .course-price .wrap p{
+        text-align: center;
+        font-size: 25px;
+    }
+    .course-price .wrap h5{
+        font-size: 24px;
+        text-align: end;
+    }
+    .course-price .wrap p:last-child{
+        text-align: start;
+    }
+    .offers .countdown .arrow-img{
+        left: 29%;
+    }
+    .information .highlight-yellow{
+        justify-self: center;
+    }
+    .opursunity h2{
+        font-size: 30px;
+        line-height: 125%;
+    }
+    .opursunity p{
+        font-size: 16px;
+    }
+}
+
+/* For Small Device */
+@media only screen and (max-width: 413px){
+    .w-75{
+        width: 100% !important;
+    }
+    .hero h5{
+        font-size: 15px !important;
+    }
+    .hero .fw-semibold{
+        font-size: 22px;
+    }
+    .hero p{
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .hero .button .btn{
+        font-size: 12px !important;
+    }
+    .hero img{
+        margin-top: 2px !important;
+        margin-bottom: 10px;
+    }
+    /* hero section end  */
+
+    .section-2 .table td,
+    .section-2 .table th{
+        font-size: 12px;
+    }
+    .section-2 .table img{
+        width: 20px;
+    }
+    /* section 2 end */
+    .section-3 .text-img{
+        width: 323px;
+        height: 158px;
+    }
+    .section-3 .text-bg .fw-semibold{
+        font-size: 20px !important;
+    }
+    .section-3 .h-text{
+        font-size: 14px;
+    }
+    .section-3 .card{
+        padding: 18px;
+    }
+    .section-3 .card h1{
+        font-size: 24px !important;
+    }
+    .section-4 .icon-title{
+        font-size: 16px;
+    }
+    .section-4 .icon-box p{
+        font-size: 14px;
+    }
+    /* section 3 end */
+    .enroll-card .section-title{
+        font-size: 38px;
+    }
+    .enroll-card .section-title span img{
+        width: 135px;
+        position: absolute;
+        left: -304px;
+        top: 41px;
+    }
+    /* enroll card end */
+    .freelancing-project,
+    .opursunity,
+    .information{
+        padding: 5px 0;
+    }
+    .freelancing-project .custom-title {
+        font-size: 30px;
+    }
+    .freelancing-project p {
+        font-size: 14px;
+    }
+    .courses .section-title{
+        font-size: 30px;
+    }
+    .courses .video-card{
+        width: 100%;
+        height: 390px;
+    }
+    .courses .btn-preview{
+        width: 93%;
+    }
+    /* course price start */
+    .course-price .wrap{
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    .course-price .wrap p{
+        font-size: 16px;
+    }
+    .course-price .wrap h5{
+        font-size: 15px !important;
+    }
+    .course-price .wrap h5 del::after {
+        left: -12px;
+    }
+    .course-price .wrap h6{
+        font-size: 12px !important;
+    }
+    .course-price .wrap img{
+        width: 65px;
+        bottom: 12%;
+        right: 0;
+    }
+    /* offer section start */
+    .offers .discount-text{
+        font-size: 16px;
+        width: 100%;
+    }
+    .offers .discount-text .big-dis{
+        font-size: 35px;
+    }
+    .offers .rotet-text{
+        font-size: 13px;
+        padding: 8px 20px;
+    }
+    .offers .countdown .arrow-img{
+        left: 14%;
+        transform: rotate(-14deg);
+    }
+    .big-offer{
+        text-align: center;
+    }
+    .big-offer h2{
+        font-size: 30px !important;
+    }
+    .big-offer p{
+        font-size: 16px;
+    }
+    /* .information */
+    .information .section-title{
+        font-size: 30px;
+    }
+    .information p{
+        font-size: 16px;
+    }
+
+    /* promo section  */
+    .promo-section{
+        padding: 30px 20px;
+    }
+    .promo .promo-text h4{
+        font-size: 20px;
+    }
+    .promo .course-price span{
+        font-size: 12px;
+    }
+    .promo button{
+        font-size: 12px;
+    }
+    .promo .right-image{
+        top: 0;
+        right: 0;
+    }
+
+    /* footer code */
+    footer .phone-email span{
+        display: block;
+    }
+    .footer{
+        font-size: 13px;
+    }
+    #md-foot{
+        display: none;
+    }
+    footer .sm-img-payment{
+        display: none;
+    }
+}
